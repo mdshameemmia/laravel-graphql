@@ -1,0 +1,9 @@
+#import query/*.graphql
+#import model/*.graphql
+#import mutation/*.graphql
+
+
+
+type Query {
+  greet(name: String!): String
+}

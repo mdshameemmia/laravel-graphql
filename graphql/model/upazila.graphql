@@ -1,0 +1,6 @@
+ type Upazila{
+  id:ID
+  name:String
+  district:District @belongsTo
+
+}

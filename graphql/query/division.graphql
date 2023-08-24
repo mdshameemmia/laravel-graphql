@@ -1,0 +1,4 @@
+extend type Query {
+  divisions:[Division!] @all
+  division(id:ID @eq): Division @find
+}

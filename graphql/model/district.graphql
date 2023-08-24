@@ -1,0 +1,7 @@
+ type District{
+  id:ID
+  name:String
+  division:Division @belongsTo
+  upazilas: [Upazila] @hasMany
+
+}

@@ -1,0 +1,4 @@
+extend type Query {
+  districts:[District!] @all
+  district(id:ID @eq): District @find
+}

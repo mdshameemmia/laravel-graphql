@@ -1,0 +1,4 @@
+extend type Mutation{
+    createUpazila(name:String! , district_id:String!): Upazila @create
+    updateUpazila(id:ID!,name:String! , district_id:String!): Upazila @update
+}

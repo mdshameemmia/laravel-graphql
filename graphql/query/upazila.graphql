@@ -1,0 +1,4 @@
+extend type Query {
+  upazilas:[Upazila!] @all
+  upazila(id:ID @eq): Upazila @find
+}

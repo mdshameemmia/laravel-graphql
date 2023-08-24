@@ -1,0 +1,7 @@
+ type Division{
+  id:ID
+  name:String
+  status:String
+  districts:[District] @hasMany
+
+}
